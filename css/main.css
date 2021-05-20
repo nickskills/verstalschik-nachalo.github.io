@@ -1,0 +1,157 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+body{
+    font-family: Open Sans, sans-serif;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.header{
+    background: rgb(78,191,254);
+    background: linear-gradient(121deg, rgba(78,191,254,1) 35%, rgba(55,143,217,1) 100%);
+    padding-top: 60px;
+	padding-bottom: 80px;
+}
+.logo{
+    display: block;
+}
+.header__wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+.header__offer{
+	margin-top: 147px;
+}
+.header__title{
+	font-family: Ubuntu, sans-serif;
+	font-size: 37px;
+	color: #fff;
+	line-height: 49px;
+}
+.header__title span{
+	font-size: 59px;
+	line-height: 73px;
+}
+.header__intro{
+	color: #fff;
+	line-height: 1.6em;
+	max-width: 400px;
+	margin: 45px 0px;
+}
+.header__btn, .form__button{
+	background: #ffd429;
+	font-size: 15px;
+	font-family: "Montserrat black";
+	padding: 20px 30px;
+	display: inline-block;
+	color: black;
+	transition: all 0.5s ease;
+}
+.header__btn:hover{
+	background: #eec009;
+}
+.form__button:hover{
+	background: #eec009;
+}
+.header__img{
+	margin-top: 60px;
+}
+.advantages__title, .form__title{
+	font-family: Ubuntu, sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+.advantages{
+	padding: 107px 0px 120px;
+}
+.advantages__skill{
+	background: url("../img/icon1.jpg") no-repeat top center;
+	padding-top: 90px;
+	max-width: 290px;
+	text-align: center;
+}
+.travel{
+	background: url("../img/icon2.jpg") no-repeat top center;
+}
+.rocket{
+	background: url("../img/icon3.jpg") no-repeat top center;
+}
+.advantages__skills{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 90px;
+}
+.advantages__skill-title{
+	font-family: Ubuntu, sans-serif;
+	font-weight: 700;
+	font-size: 19px;
+	margin-bottom: 18px;
+}
+.advantages__skill-text{
+	font-size: 15px;
+	font-family: Ubuntu, sans-serif;
+}
+.form{
+	padding: 104px 0 104px;
+	background: #ecf3f8;
+}
+.form__form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 56px;
+}
+.form__input{
+	min-width: 342px;
+	margin-bottom: 15px;
+	padding: 15px 0 17px 24px;
+	border: solid 1px #bbbbbb;
+	font-size: 15px;
+	font-family: Ubuntu, sans-serif;
+	border-radius: 3px;
+}
+.form__button{
+	min-width: 342px;
+	border: 0;
+}
+.footer{
+	padding: 63px 0;
+	background: #164d7a;
+}
+.footer__credits{
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+}
