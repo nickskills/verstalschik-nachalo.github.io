@@ -50,9 +50,7 @@ body{
 .header__wrapper{
 	display: flex;
 	justify-content: space-between;
-}
-.header__offer{
-	margin-top: 147px;
+	align-items: center;
 }
 .header__title{
 	font-family: Ubuntu, sans-serif;
