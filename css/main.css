@@ -153,3 +153,41 @@ body{
 	text-align: center;
 	color: #fff;
 }
+
+
+@media screen and (max-width: 1200px) {
+	.container{
+		max-width: 960px;
+	}
+}
+@media screen and (max-width: 992px) {
+	.container{
+		max-width: 720px;
+	}
+	.header__wrapper{
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 768px) {
+	.container{
+		max-width: 540px;
+	}
+	.header__img{
+		max-width: 100%
+	}
+	.advantages__skills{
+		flex-direction: column;
+	}
+	.advantages__skill{
+		max-width: 100%;
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 576px) {
+	.container{
+		max-width: 90%;
+	}
+	.form__input, .form__button{
+		min-width: 100%;
+	}
+}
