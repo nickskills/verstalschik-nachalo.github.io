@@ -33,6 +33,7 @@ img{vertical-align: top;}
 
 body{
     font-family: Open Sans, sans-serif;
+	overflow-x: hidden;
 }
 .container{
     max-width: 1170px;
@@ -152,6 +153,9 @@ body{
 	font-size: 14px;
 	text-align: center;
 	color: #fff;
+}
+.animated{
+	opacity: 0;
 }
 
 
